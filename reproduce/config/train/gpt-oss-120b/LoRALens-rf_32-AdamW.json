@@ -1,0 +1,27 @@
+{
+    "model": {
+        "name_or_path": "openai/gpt-oss-120b",
+        "device_map": "cuda:0"
+    },
+    "optimizer": {
+        "optimizer": "AdamW",
+        "lr_scale": 1.0,
+        "warmup_steps": 25
+    },
+    "dataset": {
+        "name": "SlimPajamaTrain.json",
+        "max_seq_len": 2048
+    },
+    "lens_type": "LoRALens",
+    "lens_config": {
+        "device": "cuda:0",
+        "rank_factor": 32,
+        "bias": true
+    },
+    "num_steps": 500,
+    "tokens_per_step": 262144,
+    "batch_size": 4,
+    "save_steps": [25, 50, 100, 150, 200, 300, 400, 500],
+    "wandb_project": "LensTraining",
+    "seed": 42
+}

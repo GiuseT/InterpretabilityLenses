@@ -1,0 +1,15 @@
+{
+  "model": {
+    "name_or_path": "openai/gpt-oss-120b",
+    "device_map": "cuda:0"
+  },
+  "dataset": {
+    "name": "SlimPajamaDevSubset.json",
+    "max_seq_len": 2048
+  },
+  "lens_type": "LoRALens",
+  "lens_pretrained_path": "LoRALens-rf_32-AdamW/400_steps",
+  "seed": 42,
+  "batch_size": 1,
+  "num_eval_tokens": 1048576
+}

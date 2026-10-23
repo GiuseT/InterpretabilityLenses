@@ -1,0 +1,13 @@
+# Datasets: downloaded separately (see README, "Data")
+reproduce/dataset/*.json
+*.rar
+
+# Created by the scripts at run time
+checkpoints/
+outputs/
+logs/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]

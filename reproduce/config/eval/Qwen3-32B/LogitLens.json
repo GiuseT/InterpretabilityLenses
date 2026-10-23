@@ -1,0 +1,14 @@
+{
+  "model": {
+    "name_or_path": "Qwen/Qwen3-32B",
+    "device_map": "cuda:0"
+  },
+  "dataset": {
+    "name": "SlimPajamaDevSubset.json",
+    "max_seq_len": 2048
+  },
+  "lens_type": "LogitLens",
+  "seed": 42,
+  "batch_size": 1,
+  "num_eval_tokens": 1048576
+}

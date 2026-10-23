@@ -1,0 +1,30 @@
+{
+    "model": {
+        "name_or_path": "Qwen/Qwen3-32B",
+        "device_map": "cuda:0"
+    },
+    "optimizer": {
+        "optimizer": "AdamW",
+        "lr_scale": 1.0,
+        "warmup_steps": 25
+    },
+    "dataset": {
+        "name": "SlimPajamaTrain.json",
+        "max_seq_len": 2048
+    },
+    "lens_type": "AnchorLens",
+    "lens_config": {
+        "device": "cuda:0",
+        "bias": true,
+        "use_global": true,
+        "use_locals": true,
+        "rank_factor": 32,
+        "global_init": "300"
+    },
+    "num_steps": 200,
+    "tokens_per_step": 262144,
+    "batch_size": 4,
+    "save_steps": [25, 50, 100, 200],
+    "wandb_project": "LensTraining",
+    "seed": 42
+}
