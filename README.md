@@ -87,7 +87,7 @@ All commands below are meant to be run **from the repository root**: datasets, c
 
 ## Data
 
-Lenses are trained and evaluated on two subsets of [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B), the same used in both papers:
+Lenses are trained and evaluated on two subsets of [SlimPajama](https://huggingface.co/datasets/gmongaras/SlimPajama-627B_Reupload), the same used in both papers:
 
 | File | Used for | Tokens | Size |
 |---|---|---|---|
