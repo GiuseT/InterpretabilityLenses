@@ -5,7 +5,7 @@ Code for training and evaluating **lenses**: small models that decode the hidden
 This repository is the official implementation of two papers from the University of Parma:
 
 > 📄 **AnchorLens: A Shared Coordinate System for Interpreting Intermediate Representations in Large Language Models**
-> · Giuseppe Trimigno, Gianfranco Lombardo, Stefano Cagnoni · **EMNLP 2026** (**Main Conference**) · waiting for proceedings
+> · Giuseppe Trimigno, Gianfranco Lombardo, Stefano Cagnoni · **EMNLP 2026** (**Main Conference**) · [paper](https://aclanthology.org/2026.emnlp-main.2385/)
 >
 > 📄 **Low-Rank Lens for Scalable LLMs Interpretability** (LoRALens)
 > · Giuseppe Trimigno, Gianfranco Lombardo, Stefano Cagnoni · **ESANN 2026** · [paper](https://www.esann.org/sites/default/files/proceedings/2026/ES2026-221.pdf)
@@ -315,7 +315,24 @@ If you find our work useful, please cite the corresponding papers.
 
 **AnchorLens: A Shared Coordinate System for Interpreting Intermediate Representations in Large Language Models** (EMNLP 2026):
 ```bibtex
-the BibTeX entry will be added once the proceedings are published.
+@inproceedings{trimigno-etal-2026-anchorlens,
+    title = "{A}nchor{L}ens: A Shared Coordinate System for Interpreting Intermediate Representations in Large Language Models",
+    author = "Trimigno, Giuseppe  and
+      Lombardo, Gianfranco  and
+      Cagnoni, Stefano",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.2385/",
+    pages = "54183--54208",
+    ISBN = "979-8-89176-459-0"
+}
 ```
 
 **LoRALens** (ESANN 2026):
